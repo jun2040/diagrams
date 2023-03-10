@@ -1,11 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T10:59:19.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4r6th6iILVZdusUWB0_N" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T13:58:00.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ufn0nocpjx5dl2Y4Yvfc" version="21.0.6" type="github">
   <diagram name="Page-1" id="8wNb66az-S5-MYoD6Dzn">
-    <mxGraphModel dx="1430" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="U4HmjNdwjZRL6S_TOMpg-65" value="Syste" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="480" y="400" width="80" height="40" as="geometry" />
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-3" value="User" style="whiteSpace=wrap;html=1;fontSize=16;imageAspect=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-4" value="Task Management System" style="whiteSpace=wrap;html=1;fontSize=16;imageAspect=1;absoluteArcSize=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hY6Mu5wa5ivJoahVfjo8-3" target="hY6Mu5wa5ivJoahVfjo8-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="640" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="340" />
+              <mxPoint x="720" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-33" value="Add/Edit/Delete Notebook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="500" as="sourcePoint" />
+            <mxPoint x="640" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-53" value="Create/Delete Tag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hY6Mu5wa5ivJoahVfjo8-3" target="hY6Mu5wa5ivJoahVfjo8-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="380" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="380" />
+              <mxPoint x="720" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-60" value="Add/Edit/Delete Task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-62" value="Add/Edit/Delete Reminder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-64" value="Add/Edit/Delete Notes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="540" as="sourcePoint" />
+            <mxPoint x="320" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-66" value="Filtered/Non-filtered List of &lt;br&gt;Notebooks/Tasks/Reminders/Notes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hY6Mu5wa5ivJoahVfjo8-4" target="hY6Mu5wa5ivJoahVfjo8-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="580" as="sourcePoint" />
+            <mxPoint x="240" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="580" />
+              <mxPoint x="240" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-70" value="Written Note" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hY6Mu5wa5ivJoahVfjo8-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="560" as="sourcePoint" />
+            <mxPoint x="240" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="620" />
+              <mxPoint x="320" y="620" />
+              <mxPoint x="240" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-72" value="Notebook/Task/Reminder/Note Info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hY6Mu5wa5ivJoahVfjo8-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-73" value="User" style="whiteSpace=wrap;html=1;fontSize=16;imageAspect=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1510" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-74" value="User" style="whiteSpace=wrap;html=1;fontSize=16;imageAspect=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1080" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hY6Mu5wa5ivJoahVfjo8-76" value="Add Notebook" style="whiteSpace=wrap;html=1;fontSize=16;imageAspect=1;absoluteArcSize=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1020" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
